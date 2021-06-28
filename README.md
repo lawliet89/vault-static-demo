@@ -36,6 +36,7 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_gcp_secret_path"></a> [gcp\_secret\_path](#input\_gcp\_secret\_path) | Path in Vault to mount | `string` | `"gcp-static-test"` | no |
+| <a name="input_mount_type"></a> [mount\_type](#input\_mount\_type) | Name of mount with the GCP static code in. | `string` | `"gcpstatic"` | no |
 | <a name="input_project_id"></a> [project\_id](#input\_project\_id) | Google Project ID | `string` | n/a | yes |
 | <a name="input_roleset_service_account"></a> [roleset\_service\_account](#input\_roleset\_service\_account) | Service account for roleset | `string` | `"static-roleset-test"` | no |
 | <a name="input_roleset_static"></a> [roleset\_static](#input\_roleset\_static) | Name of static account 'roleset' | `string` | `"test"` | no |

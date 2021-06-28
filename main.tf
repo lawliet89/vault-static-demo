@@ -8,7 +8,7 @@ provider "google" {
 
 resource "vault_mount" "gcp" {
   path        = var.gcp_secret_path
-  type        = "gcpstatic"
+  type        = var.mount_type
   description = "GCP Secrets Engine for static test"
 }
 

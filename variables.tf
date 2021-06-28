@@ -20,6 +20,12 @@ variable "gcp_secret_path" {
   default     = "gcp-static-test"
 }
 
+variable "mount_type" {
+  description = "Name of mount with the GCP static code in."
+  type        = string
+  default     = "gcpstatic"
+}
+
 variable "roleset_service_account" {
   description = "Service account for roleset"
   type        = string
